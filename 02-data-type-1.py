@@ -7,10 +7,12 @@ print ("hello world")
 
 # 문자열 더하기
 print ("hello" + "1")
+
 # 정수 소수 간 변경
 print (4//2)
 print (int(4/2))
 print(float(2))
+
 #문자열 숫자 간 변경
 print ("1")
 print(int("1"))
