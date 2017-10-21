@@ -18,7 +18,7 @@ print(list_a)
 # print(list_a)
 
 
-# tuple(1,)
+# tuple(1,*,*,*)
 print("tuple")
 tuple_a = (1,2,3)
 print(tuple_a)
