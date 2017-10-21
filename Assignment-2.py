@@ -14,17 +14,4 @@ class Smarterme(People):
     title = input("What is your title? ")
     smartermeteam = People(name, age, gender, title)
 
-    print (smartermeteam.name, smartermeteam.age, smartermeteam.gender, smartermeteam.title)
-
-
-
-# print (brunch_article.source) # 새로 추가한 변수 확인
-# print (brunch_article.view_count)
-# brunch_article.read()
-# print(brunch_article.view_count)
-
-
-
-# person = People(name, age, gender)
-#
-# print (person.name, person.age, person.gender, person.title)
+print (smartermeteam.name, smartermeteam.age, smartermeteam.gender, smartermeteam.title)
