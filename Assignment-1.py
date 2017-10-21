@@ -1,4 +1,4 @@
-Restaurant = str(input ("Please choose from Korean, Chinese and Japanese: "))
+Restaurant = str(input ("Please choose one from Korean, Chinese or Japanese: "))
 
 
 import random
@@ -16,4 +16,4 @@ elif Restaurant in ["Japanese", "japanese", "jap", "Janpan", "japan"]:
     print (random.choice(Japanese))
 
 else:
-    print ("Not valid. Please choose from Korean, Chinese and Japanese")
+    print ("Not valid. Please choose one from Korean, Chinese or Japanese")
