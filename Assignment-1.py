@@ -1,4 +1,4 @@
-Restaurant = str(input ("Please choose one from Korean, Chinese or Japanese: "))
+Restaurant = str(input("Please choose one from Korean, Chinese or Japanese: "))
 
 
 import random
