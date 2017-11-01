@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="container">
+  <div class="col-xs-6">
+    <div class="colorful-text">
+      <div> Hello student {{ name }}! Welcome to Teacher Link :) </div>
+    </div>
+  </div>
+<div class="col-xs-6">
+  {% for course in homepage_course %}
+    <div>{{course.name}}</div>
+  {% endfor %}
+    {{ course.name }}
+  </div>
+</div>
+{% endblock %}
